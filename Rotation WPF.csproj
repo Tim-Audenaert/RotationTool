@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Rotation_WPF</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="img\Rotation_circle.png" />
+    <None Remove="img\Rotation_triangle.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="img\Rotation_circle.png" />
+    <Resource Include="img\Rotation_triangle.png" />
+  </ItemGroup>
+
+</Project>
